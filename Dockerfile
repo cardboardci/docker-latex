@@ -7,7 +7,7 @@ ENV PATH=/usr/local/texlive/bin/x86_64-linux:$PATH
 COPY rootfs/ /
 
 RUN apt-get update -q
-RUN apt-get install -qy --no-install-recommends build-essential wget libfontconfig1 
+RUN apt-get install -qy --no-install-recommends build-essential=12.4ubuntu1 wget=1.19.4-1ubuntu2.1 libfontconfig1=2.12.6-0ubuntu2
 
 COPY provision/install.sh /tmp/install.sh
 RUN sh /tmp/install.sh && rm -f /tmp/install.sh

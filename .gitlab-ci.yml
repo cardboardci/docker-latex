@@ -13,7 +13,7 @@ stages:
 
 variables:
   HUB_NAMESPACE: cardboardci
-  HUB_PROJECT: pdftools
+  HUB_PROJECT: latex
 
 ##
 ## Validate

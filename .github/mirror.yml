@@ -1,0 +1,8 @@
+---
+name: github
+provider: github.com
+repository: docker-latex
+url: https://github.com/cardboardci/docker-latex
+clone:
+  ssh: git@github.com:cardboardci/docker-latex.git
+  https: https://github.com/cardboardci/docker-latex.git

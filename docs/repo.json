@@ -1,8 +1,0 @@
-{
-  "name": "docker-latex",
-  "tagline": "LaTeX is a sys­tem for com­puter type­set­ting of doc­u­ments.",
-  "license": {
-    "name": "MIT"
-  },
-  "tags": ["docker", "latex", "typeset"]
-}

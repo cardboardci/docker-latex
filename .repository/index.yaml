@@ -1,0 +1,16 @@
+slug: docker-latex
+description: LaTeX is a sys­tem for com­puter type­set­ting of doc­u­ments.
+project: cardboardci
+namespace: docker
+status: archived
+icon: icon.svg
+license:
+  type: MIT
+  content: Jonathan Beverly <jrbeverly>
+  year: 2019
+topics: |-
+  [
+    "dockerfile",
+    "latex",
+    "latex-kernel"
+  ]
